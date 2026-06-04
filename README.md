@@ -16,5 +16,10 @@ MCP servers can provides the functionalities like:
 
 2. Initialise the project with {uv init .}
 
-3. Add the dependencies uv add {"mcp[cli]" httpx}
+3. Add the dependencies {uv add "mcp[cli]" httpx}
 
+4. Create weather.py file which has content for our MCP server 
+
+5. Run the script with the help of uv run or via MCP inspector
+- {uv run weather.py}
+- {npx @modelcontextprotocol/inspector -- "uv" "run" "weather.py"}
